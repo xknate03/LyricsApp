@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Song List</string>
+    <string-array name="songs">
+        <item>Girls Like You</item>
+        <item>Harder To Breath</item>
+        <item>What Lovers Do</item>
+        <item>Wont Go Home Without You</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+    </string-array>
+
+
+
+
+</resources>
