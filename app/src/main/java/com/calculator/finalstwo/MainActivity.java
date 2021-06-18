@@ -13,9 +13,10 @@ import java.io.InputStreamReader;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] songs, desc;
+    String[] songs, desc, moreInfo;
     String line, entireFile;
-    int[] images = {R.drawable.girlslikeyou, R.drawable.harder, R.drawable.whatlovers, R.drawable.wontgohome};
+    int[] images = {R.drawable.girlslikeyou, R.drawable.harder, R.drawable.whatlovers,
+                    R.drawable.wontgohome, R.drawable.payphone, R.drawable.intentions, R.drawable.bohemian};
 
     RecyclerView recyclerView;
     @Override
@@ -26,14 +27,16 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
 
         songs = getResources().getStringArray(R.array.songs);
+        moreInfo = getResources().getStringArray(R.array.moreinfo);
         //desc = getResources().getStringArray(R.array.description);
 
         //intialize desc[] below using the buffer
         desc = new String[]{getLyrics(R.raw.girlslikeyoulyrics), getLyrics(R.raw.hardertobreath),
-                            getLyrics(R.raw.whatloversdo), getLyrics(R.raw.wontgohome)};
+                            getLyrics(R.raw.whatloversdo), getLyrics(R.raw.wontgohome),
+                            getLyrics(R.raw.payphone), getLyrics(R.raw.intentions), getLyrics(R.raw.bohemian)};
 
 
-        MyAdapter myAdapter = new MyAdapter(this, songs, desc,images);
+        MyAdapter myAdapter = new MyAdapter(this, songs, desc,images, moreInfo);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }

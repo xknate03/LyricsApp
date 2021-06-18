@@ -11,7 +11,7 @@
         android:theme="@style/Theme.FinalsTwo">
         <activity android:name=".Content"
             android:parentActivityName=".MainActivity"
-            android:label="Content">
+            android:label="Lyrics">
 
         </activity>
         <activity android:name=".MainActivity">

@@ -1,17 +1,33 @@
 <resources>
-    <string name="app_name">Song List</string>
+    <string name="app_name">Songs</string>
     <string-array name="songs">
         <item>Girls Like You</item>
         <item>Harder To Breath</item>
         <item>What Lovers Do</item>
         <item>Wont Go Home Without You</item>
+        <item>Payphone</item>
+        <item>Intentions</item>
+        <item>Bohemian Rhapsody</item>
     </string-array>
 
     <string-array name="description">
-        <item>This is a random description</item>
-        <item>This is a random description</item>
-        <item>This is a random description</item>
-        <item>This is a random description</item>
+        <item>Girls Like You</item>
+        <item>Harder To Breath</item>
+        <item>What Lovers Do</item>
+        <item>Wont Go Home Without You</item>
+        <item>Payphone</item>
+        <item>Intentions</item>
+        <item>Bohemian Rhapsody</item>
+    </string-array>
+
+    <string-array name="moreinfo">
+        <item>Maroon 5</item>
+        <item>Maroon 5</item>
+        <item>Maroon 5</item>
+        <item>Maroon 5</item>
+        <item>Maroon 5</item>
+        <item>Justin Bieber</item>
+        <item>Queen</item>
     </string-array>
 
 

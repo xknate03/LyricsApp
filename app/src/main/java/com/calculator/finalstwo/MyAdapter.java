@@ -15,14 +15,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.io.InputStream;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
-    String[] data1, data2;
+    String[] data1, data2, moreInfo;
     Context ct;
     int[] images;
-    public MyAdapter(Context ct, String[] data1, String[] data2, int[] images) {
+    public MyAdapter(Context ct, String[] data1, String[] data2, int[] images, String[] moreInfo) {
         this.ct = ct;
         this.data1 = data1;
         this.data2 = data2;
         this.images = images;
+        this.moreInfo = moreInfo;
     }
 
 
@@ -41,7 +42,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.txtTitle.setText(data1[position]);
 
 
-        holder.txtDescription.setText("description");
+        holder.txtDescription.setText(moreInfo[position]);
 
         holder.imgImage.setImageResource(images[position]);
 
