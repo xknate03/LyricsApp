@@ -28,7 +28,7 @@ public class Content extends AppCompatActivity {
         txtTitle_content = findViewById(R.id.txtTitle_content);
         txtDesc_content = findViewById(R.id.txtDesc_content);
         img_content = findViewById(R.id.img_content);
-
+//getting data
         getData();
         setData();
 
