@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
     android:orientation="vertical"
     tools:context=".Content">
 
@@ -39,7 +40,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:text="TextView"
-                android:textColor="#000000"
+                android:textColor="#325353"
                 android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
